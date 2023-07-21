@@ -1,13 +1,12 @@
-﻿Console.WriteLine("nombre: ");
-string n = Console.ReadLine();
-Console.WriteLine("Apellido: ");
-string a = Console.ReadLine();
-Console.WriteLine("edad: ");
-int e = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Ciudad: ");
-string c = Console.ReadLine();
+﻿Console.WriteLine("marca del coche: ");
+string m = Console.ReadLine();
+Console.WriteLine("Cuantas puertas tiene?");
+int p = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("cuantas ruedas tiene ");
+int r = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("ITVvigente");
+int ITV = Convert.ToInt32(Console.ReadLine());
 
-
-Console.WriteLine("Hola " + n + " " + a);
-Console.WriteLine("Tienes " + e + "años");
-Console.WriteLine("Eres de " + c);
+Console.WriteLine("La marca del auto es " + m);
+Console.Write("tiene " + p); Console.Write(" puertas,"); Console.Write(+ r + " ruedas");
+Console.WriteLine("ITVvigente: " + ITV);
